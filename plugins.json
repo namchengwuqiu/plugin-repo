@@ -746,5 +746,9 @@
   {
     "id": "bsyj.game-knowledge-plugin",
     "repositoryUrl": "https://github.com/bsyj/game-knowledge-plugin"
+  },
+  {
+    "id": "CXCY_model_router_plugin",
+    "repositoryUrl": "https://github.com/chengxuanchengyu-afk/model_router_plugin"
   }
 ]
