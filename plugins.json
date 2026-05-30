@@ -778,5 +778,9 @@
   {
     "id": "chi8wah.f1-info-plugin",
     "repositoryUrl": "https://github.com/Chi8wah/f1-info-plugin"
+  },
+  {
+    "id": "davidblackcn.maibot-api-balance-plugin",
+    "repositoryUrl": "https://github.com/DavidBlackCN/maibot-api-balance-plugin"
   }
 ]
