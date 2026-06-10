@@ -8732,7 +8732,7 @@
           {
             "type": "command",
             "name": "merchant_rewrite",
-            "description": "临时开关播报 LLM ��写（仅管理员）"
+            "description": "临时开关播报 LLM 重写（仅管理员）"
           },
           {
             "type": "command",
