@@ -2670,7 +2670,7 @@
     "id": "TAIY2020.custom_commands_plugin",
     "manifest": {
       "manifest_version": 2,
-      "version": "2.5.0",
+      "version": "2.5.2",
       "name": "自定义命令插件 | CustomCommands Plugin",
       "description": "一个允许你通过聊天命令动态添加、删除、列出和触发自定义回复的强大插件，支持群组数据隔离与自定义分组映射。",
       "author": {
@@ -2696,7 +2696,6 @@
       "capabilities": [
         "send.text",
         "send.image",
-        "config.get",
         "api.call",
         "component.reload_plugin"
       ],
@@ -10146,7 +10145,7 @@
     "manifest": {
       "manifest_version": 2,
       "id": "chi8wah.f1-info-plugin",
-      "version": "1.0.5",
+      "version": "1.0.6",
       "name": "F1 资讯插件",
       "description": "查询 F1 赛历、赛果，并生成每日重要 F1 新闻一句话中文摘要。",
       "author": {
