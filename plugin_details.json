@@ -1482,7 +1482,7 @@
     "manifest": {
       "manifest_version": 2,
       "id": "xinxinxin0.bilibili-video-sender",
-      "version": "2.0.6",
+      "version": "2.0.7",
       "name": "麦麦发 B 站视频",
       "description": "让麦麦解析 B 站视频链接并发送，群聊私聊都可用",
       "author": {
@@ -8110,7 +8110,7 @@
     "id": "maibot-team.snowluma-adapter",
     "manifest": {
       "manifest_version": 2,
-      "version": "0.7.1",
+      "version": "0.7.2",
       "name": "SnowLuma 连接器（适配器）/ SnowLuma Adapter",
       "description": "连接SnowLuma的Maibot连接器/SnowLuma WebSocket adapter plugin for MaiBot message gateway.",
       "author": {
@@ -8720,7 +8720,7 @@
     "id": "exynos967.telegram-adapter",
     "manifest": {
       "manifest_version": 2,
-      "version": "1.1.0",
+      "version": "1.2.0",
       "name": "Telegram_Adapter",
       "description": "Telegram Bot API adapter plugin for MaiBot",
       "author": {
