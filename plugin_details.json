@@ -8031,7 +8031,7 @@
     "id": "maibot-team.napcat-adapter",
     "manifest": {
       "manifest_version": 2,
-      "version": "1.1.0",
+      "version": "1.2.0",
       "name": "Napcat_Adapter 适配器",
       "description": "插件版Napcat适配器，提供与Napcat的连接功能。",
       "author": {
@@ -8047,7 +8047,7 @@
       },
       "host_application": {
         "min_version": "1.0.0",
-        "max_version": "1.0.0"
+        "max_version": "1.0.99"
       },
       "sdk": {
         "min_version": "2.0.0",
@@ -8110,7 +8110,7 @@
     "id": "maibot-team.snowluma-adapter",
     "manifest": {
       "manifest_version": 2,
-      "version": "0.7.2",
+      "version": "0.8.0",
       "name": "SnowLuma 连接器（适配器）/ SnowLuma Adapter",
       "description": "连接SnowLuma的Maibot连接器/SnowLuma WebSocket adapter plugin for MaiBot message gateway.",
       "author": {
@@ -8912,23 +8912,13 @@
       },
       "host_application": {
         "min_version": "1.0.0",
-        "max_version": "1.99.0"
+        "max_version": "1.99.99"
       },
       "sdk": {
         "min_version": "2.0.0",
-        "max_version": "2.99.0"
+        "max_version": "2.99.99"
       },
       "dependencies": [
-        {
-          "type": "python_package",
-          "name": "python-docx",
-          "version_spec": ">=1.1.2"
-        },
-        {
-          "type": "python_package",
-          "name": "pypdf",
-          "version_spec": ">=5.0.0"
-        },
         {
           "type": "python_package",
           "name": "PyYAML",
@@ -9057,9 +9047,9 @@
     "id": "TAIY2020.llm-balance-plugin",
     "manifest": {
       "manifest_version": 2,
-      "version": "1.5.5",
+      "version": "1.6.0",
       "name": "LLM 平台余额查询插件 | LLM Balance Plugin",
-      "description": "通过聊天命令 /余额 并行查询 DeepSeek、SiliconFlow 的账号余额，支持 HTML 卡片可视化输出，仅依赖 Python 标准库。",
+      "description": "通过聊天命令 /余额 并行查询 DeepSeek、SiliconFlow 和阿里云账号余额，支持 HTML 卡片可视化输出，仅依赖 Python 标准库。",
       "author": {
         "name": "TaiYang",
         "url": "https://github.com/TAIY2020"
