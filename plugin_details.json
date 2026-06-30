@@ -1482,7 +1482,7 @@
     "manifest": {
       "manifest_version": 2,
       "id": "xinxinxin0.bilibili-video-sender",
-      "version": "2.0.8",
+      "version": "2.0.9",
       "name": "麦麦发 B 站视频",
       "description": "让麦麦解析 B 站视频链接并发送，群聊私聊都可用",
       "author": {
@@ -5990,7 +5990,7 @@
           "refresh_interval_minutes": {
             "type": "integer",
             "default": 30,
-            "description": "人物画像定时刷新周期（分钟）"
+            "description": "人物画像定时刷��周期（分钟）"
           },
           "active_window_hours": {
             "type": "number",
@@ -8455,7 +8455,7 @@
     "manifest": {
       "manifest_version": 2,
       "id": "maimai-drawpic-plugin",
-      "version": "1.8.5",
+      "version": "1.8.6",
       "name": "麦麦绘图",
       "description": "让麦麦拥有图片创建与图片编辑的能力，支持多平台图片模型",
       "author": {
@@ -10106,7 +10106,11 @@
         }
       ],
       "i18n": {
-        "default_locale": "zh-CN"
+        "default_locale": "zh-CN",
+        "locales_path": "_locales",
+        "supported_locales": [
+          "zh-CN"
+        ]
       }
     }
   },
