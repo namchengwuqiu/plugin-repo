@@ -5963,7 +5963,7 @@
               "type": "string"
             },
             "default": [],
-            "description": "聊天流 ID 列表。支持格式: 1. 纯数字 (兼容模式); 2. 显式指定: 'group:12345'(群号), 'user:10001'(私聊), 'stream:hash'(流ID)"
+            "description": "聊天流 ID 列表���支持格式: 1. 纯数字 (兼容模式); 2. 显式指定: 'group:12345'(群号), 'user:10001'(私聊), 'stream:hash'(流ID)"
           }
         },
         "person_profile": {
@@ -5990,7 +5990,7 @@
           "refresh_interval_minutes": {
             "type": "integer",
             "default": 30,
-            "description": "人物画像定时刷��周期（分钟）"
+            "description": "人物画像定时刷新周期（分钟）"
           },
           "active_window_hours": {
             "type": "number",
@@ -7914,7 +7914,7 @@
     "id": "maibot-team.napcat-adapter",
     "manifest": {
       "manifest_version": 2,
-      "version": "1.2.0",
+      "version": "1.3.0",
       "name": "Napcat_Adapter 适配器",
       "description": "插件版Napcat适配器，提供与Napcat的连接功能。",
       "author": {
@@ -7928,6 +7928,7 @@
         "documentation": "https://github.com/Mai-with-u/MaiBot-Napcat-Adapter",
         "issues": "https://github.com/Mai-with-u/MaiBot-Napcat-Adapter/issues"
       },
+      "changelog": "CHANGELOG.md",
       "host_application": {
         "min_version": "1.0.0",
         "max_version": "1.0.99"
@@ -8455,7 +8456,7 @@
     "manifest": {
       "manifest_version": 2,
       "id": "maimai-drawpic-plugin",
-      "version": "1.8.6",
+      "version": "1.8.8",
       "name": "麦麦绘图",
       "description": "让麦麦拥有图片创建与图片编辑的能力，支持多平台图片模型",
       "author": {
