@@ -2848,7 +2848,7 @@
     "id": "TAIY2020.group_muter_plugin",
     "manifest": {
       "manifest_version": 2,
-      "version": "2.4.1",
+      "version": "2.4.2",
       "name": "群聊静音插件 | GroupMuter Plugin",
       "description": "一个允许管理员通过聊天命令、或麦麦主动让指定群聊临时进入“静音状态”（闭嘴）的群组管理插件。",
       "author": {
@@ -5943,7 +5943,7 @@
               "type": "string"
             },
             "default": [],
-            "description": "聊天流 ID 列表。支持格式: 1. 纯数字 (兼容模式); 2. 显式指定: 'group:12345'(群号), 'user:10001'(私聊), 'stream:hash'(流ID)"
+            "description": "聊天流 ID ��表。支持格式: 1. 纯数字 (兼容模式); 2. 显式指定: 'group:12345'(群号), 'user:10001'(私聊), 'stream:hash'(流ID)"
           }
         },
         "person_profile": {
@@ -7159,7 +7159,7 @@
           {
             "type": "event_handler",
             "name": "mai_plan_stop_handler",
-            "description": "Mai_Plan 停止时关闭提醒调度器"
+            "description": "Mai_Plan 停止时关闭提���调度器"
           },
           {
             "type": "tool",
