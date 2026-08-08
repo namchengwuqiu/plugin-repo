@@ -1482,7 +1482,7 @@
     "manifest": {
       "manifest_version": 2,
       "id": "xinxinxin0.bilibili-video-sender",
-      "version": "2.0.10",
+      "version": "2.0.11",
       "name": "麦麦发 B 站视频",
       "description": "让麦麦解析 B 站视频链接并发送，群聊私聊都可用",
       "author": {
@@ -6017,7 +6017,7 @@
           "reinforce_buffer_max_size": {
             "type": "integer",
             "default": 1000,
-            "description": "强化缓��区最大大小"
+            "description": "强化缓冲区最大大小"
           },
           "reinforce_cooldown_hours": {
             "type": "number",
