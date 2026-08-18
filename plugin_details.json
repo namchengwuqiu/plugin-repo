@@ -5975,7 +5975,7 @@
           "active_window_hours": {
             "type": "number",
             "default": 72,
-            "description": "活跃人物窗口（小时）"
+            "description": "活跃人物窗口（小时���"
           },
           "max_refresh_per_cycle": {
             "type": "integer",
@@ -6017,7 +6017,7 @@
           "reinforce_buffer_max_size": {
             "type": "integer",
             "default": 1000,
-            "description": "强化缓冲���最大大小"
+            "description": "强化缓冲区最大大小"
           },
           "reinforce_cooldown_hours": {
             "type": "number",
