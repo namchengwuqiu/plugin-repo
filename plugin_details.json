@@ -949,7 +949,7 @@
       "dependencies": [
         {
           "type": "plugin",
-          "id": "maibot-team.napcat-adapter",
+          "id": "maibot-team.snowluma-adapter",
           "version_spec": ">=0.1.0"
         },
         {
@@ -981,7 +981,13 @@
         "message.get_recent",
         "api.call",
         "emoji.get_by_description",
-        "database.get"
+        "database.get",
+        "message.get_by_time",
+        "message.get_by_time_in_chat",
+        "chat.get_stream_by_group_id",
+        "chat.get_stream_by_user_id",
+        "chat.get_group_streams",
+        "chat.get_private_streams"
       ],
       "i18n": {
         "default_locale": "zh-CN"
@@ -5993,7 +5999,7 @@
           "top_k_evidence": {
             "type": "integer",
             "default": 12,
-            "description": "构建画像时的证据数量上限"
+            "description": "构建画像时的��据数量上限"
           }
         },
         "memory": {
@@ -7167,7 +7173,7 @@
           {
             "type": "event_handler",
             "name": "mai_plan_stop_handler",
-            "description": "Mai_Plan 停止时关闭提醒调度器"
+            "description": "Mai_Plan 停止时关闭提���调度器"
           },
           {
             "type": "tool",
@@ -8342,7 +8348,7 @@
     "manifest": {
       "manifest_version": 2,
       "id": "maimai-drawpic-plugin",
-      "version": "1.10.6",
+      "version": "1.10.7",
       "name": "麦麦绘图",
       "description": "让麦麦拥有图片创建与图片编辑的能力，支持多平台图片模型",
       "author": {
