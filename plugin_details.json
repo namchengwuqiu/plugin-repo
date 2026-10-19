@@ -1521,7 +1521,7 @@
     "id": "XXXxx7258.google_search_plugin",
     "manifest": {
       "manifest_version": 2,
-      "version": "4.0.3",
+      "version": "4.1.0",
       "name": "麦麦联网插件（search plugin）",
       "description": "支持多个搜索引擎的网络搜索、缩写翻译以及图片搜索，并提供自动降级能力。",
       "author": {
@@ -8192,7 +8192,7 @@
     "id": "TAIY2020.smart_poke_plugin",
     "manifest": {
       "manifest_version": 2,
-      "version": "1.11.0",
+      "version": "1.11.1",
       "name": "智能戳一戳插件 | Smart Poke Plugin",
       "description": "一个让麦麦在 QQ 戳一戳里尽量像真人一样反应的拟人化交互插件。",
       "author": {
