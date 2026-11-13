@@ -49,7 +49,7 @@
     "manifest": {
       "manifest_version": 2,
       "id": "github.a0000xz.maibot-tarots-plugin",
-      "version": "2.1.0",
+      "version": "2.1.1",
       "name": "塔罗工坊",
       "description": "面向 MaiBot 新版插件系统的塔罗占卜插件：11 种牌阵、可自定义牌阵与牌组、桌布风布局图、麦麦人设解牌；支持独立牌组资源包「灵契秘仪」（首次启用下载并校验）",
       "author": {
@@ -2370,7 +2370,7 @@
     "manifest": {
       "manifest_version": 2,
       "id": "namchengwuqiu.gemini_drawer",
-      "version": "1.15.13",
+      "version": "1.16.0",
       "name": "Gemini 绘图",
       "description": "使用 Google Gemini API或着其他第三方平台提供的绘图服务，根据图片和提示词生成新图片。（现已支持视频生成）",
       "author": {
@@ -5520,7 +5520,7 @@
           "top_k_evidence": {
             "type": "integer",
             "default": 12,
-            "description": "构建画像时的证据数量上限"
+            "description": "构建画像时的��据数量上限"
           }
         },
         "memory": {
