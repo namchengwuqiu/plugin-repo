@@ -5520,7 +5520,7 @@
           "top_k_evidence": {
             "type": "integer",
             "default": 12,
-            "description": "构建画像时的��据数量上限"
+            "description": "构建画像时的证据数量上限"
           }
         },
         "memory": {
@@ -7820,11 +7820,11 @@
         "issues": "https://github.com/WhiteCloudOL/maimai-drawpic-plugin/issues"
       },
       "host_application": {
-        "min_version": "1.3.6",
+        "min_version": "1.3.19",
         "max_version": "1.4.99"
       },
       "sdk": {
-        "min_version": "2.12.0",
+        "min_version": "2.20.0",
         "max_version": "2.22.1"
       },
       "dependencies": [
@@ -7861,7 +7861,9 @@
         "chat.get_stream_by_user_id",
         "message.get_recent",
         "message.get_by_id",
-        "webui.claim_upload"
+        "webui.claim_upload",
+        "web.search",
+        "web.fetch"
       ],
       "i18n": {
         "default_locale": "zh-CN",
